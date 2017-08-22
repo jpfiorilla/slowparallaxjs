@@ -1,5 +1,7 @@
 **Parallax. With momentum.**
 
+`npm i --save slowparallax`
+
 Example: http://www.ofo.so/
 
 ```js

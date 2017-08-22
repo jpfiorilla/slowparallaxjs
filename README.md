@@ -26,4 +26,4 @@ yields:-
 </div>
 ```
 
-As the user scrolls, the `someClass` <div /> will float lazily up & down the screen by 200px. This takes place over the course of a random amount of time between 10 and 15 seconds.
+As the user scrolls, the `someClass <div>` will float lazily up & down the screen by 200px. This takes place over the course of a random amount of time between 10 and 15 seconds.

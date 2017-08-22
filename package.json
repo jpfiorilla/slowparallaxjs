@@ -1,16 +1,31 @@
 {
   "name": "slowparallax",
   "version": "1.1.1",
-  "description": "",
+  "description": "**Parallax. With momentum.**",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "john fiorilla",
   "license": "ISC",
   "dependencies": {
     "gsap": "^1.20.2",
     "react": "^15.6.1",
     "scrollmagic": "^2.0.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpfiorilla/slowparallaxjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpfiorilla/slowparallaxjs/issues"
+  },
+  "homepage": "https://github.com/jpfiorilla/slowparallaxjs#readme",
+  "keywords": [
+    "parallax",
+    "scroll",
+    "momentum",
+    "effect"
+  ]
 }

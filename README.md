@@ -30,10 +30,10 @@ As the user scrolls, the `someClass <div>` will float lazily up & down the scree
 
 Exposed Property | Type | Default | Required | Description
 ``` | ``` | ``` | ``` | ```
-`class` or `className` | `string` |  |  ✔ | Class name given to the outer parent `<div>`.
-`content` | HTML element |  | ✔ | HTML content which will be animated.
-`distance` | `number` | 200 | | Distance in `px` the `content` will travel in each direction.
-`time` | `number` | 10 | | Amount of time it will take the `content` to travel to its destination after each scroll event. This amount is slightly randomized to make the effect more natural.
-`timeMax` | `number` | | | If provided, the time used will be a random amount between the `time` and `timeMax`.
-`style` | `object` | {} | | Style applied to the outer parent `<div>`.
-`triggerStyle` | `object` | {} | | Style applied to the trigger `<div>`.
+`class` or `className` | `string` | x |  ✔ | Class name given to the outer parent `<div>`.
+`content` | HTML element | x | ✔ | HTML content which will be animated.
+`distance` | `number` | 200 | x | Distance in `px` the `content` will travel in each direction.
+`time` | `number` | 10 | x | Amount of time it will take the `content` to travel to its destination after each scroll event. This amount is slightly randomized to make the effect more natural.
+`timeMax` | `number` | x | x | If provided, the time used will be a random amount between the `time` and `timeMax`.
+`style` | `object` | {} | x | Style applied to the outer parent `<div>`.
+`triggerStyle` | `object` | {} | x | Style applied to the trigger `<div>`.

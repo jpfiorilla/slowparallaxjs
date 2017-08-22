@@ -72,7 +72,7 @@ class SlowParallax extends React.Component {
     render() {
         return(
             <div className={`slowParallax ${this.class} ${this.class + this.id}`} style={this.props.style || {}}>
-                <div className={`${this.class}Trigger${this.id}`} ref={`${this.class}Trigger${this.id}`} style={this.props.triggerStyle} />
+                <div className={`${this.class}Trigger${this.id}`} ref={`${this.class}Trigger${this.id}`} style={this.props.triggerStyle || {}} />
                 {/*<div className={`${this.class} ${this.class + this.id}`}>*/}
                     {this.props.content}
                 {/*</div>*/}
